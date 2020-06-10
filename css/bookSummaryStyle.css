@@ -1,0 +1,166 @@
+* {
+    font-family: 'Hacen Liner Print-out';
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    direction: rtl;
+}
+
+.right-side {
+    float: right;
+}
+.publiction-div {
+   /* background: url(imgs/publications-div.png);
+   
+    background-position: top;
+     background-repeat: no-repeat;
+    background-size: 100%;*/
+    
+    min-height: 387px;
+    
+}
+#contentTxt {
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(180, 174, 174);
+    border-radius: 10px;
+}
+#contentTxt .textStyle{
+    overflow-y: scroll;
+    height: 670px;
+    font-size: 17px;
+}
+.publiction-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0a808f;
+    text-align: right;
+    line-height: 2;
+    height: 80px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    font-family: Cairo,sans-serif;
+}
+.publiction-details {
+    background: url(../imgs/publications-details_ar.png);
+    color: #fff;
+    background-size: 100% 100%;
+    margin-top: 0;
+    font-family: Cairo,sans-serif;
+    
+    margin-right: 0px;
+}
+/*.publiction-details-text {
+    line-height: 2;
+    text-align: right;
+    float: right;
+    font-family: Cairo,sans-serif;
+}*/
+.textStyle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.at-share-tbx-element .at-icon-wrapper {
+    vertical-align: middle;
+}
+a .at-icon-wrapper {
+    cursor: pointer;
+}
+
+.at-icon-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 20px; 
+    height: 20px;
+     width: 20px;
+
+}
+.at-icon-wrapper svg{
+    fill: rgb(255, 255, 255);
+     width: 20px; 
+     height: 20px;
+}
+
+.at-share-tbx-element .at-share-btn {
+    cursor: pointer;
+    margin: 0 5px 5px 0;
+    display: inline-block;
+    overflow: hidden;
+    border: 0;
+    text-decoration: none;
+    text-transform: none;
+    background-color: transparent;
+    color: inherit;
+    transition: all .2s ease-in-out;
+}
+
+.at-share-tbx-element, .at-share-tbx-element .at-share-btn {
+    font-family: helvetica neue,helvetica,arial,sans-serif;
+    padding: 0;
+    line-height: 0;
+}
+.at4-visually-hidden {
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+.fa-print {
+    padding: 6px;
+    font-size: 17px;
+    background-color: rgba(10,126,140,0.8);
+    float: left;
+    color: #fff;
+    margin: auto 2px;
+}
+#decFont , #incFont {
+    padding: 2px;
+    font-size: 12px;
+    background-color: rgb(9, 207, 230);
+    float: left;
+    color: #fff;
+    margin: auto 2px;
+   
+}
+#decFont:hover , #incFont:hover {
+    cursor: pointer; 
+}
+
+.at-share-tbx-element .at-share-btn:focus, .at-share-tbx-element .at-share-btn:hover {
+    transform: translateY(-4px);
+    outline-offset: -1px;
+    color: inherit;
+}
+#incFont:hover , #decFont:hover {
+    margin-top: -3px;
+}
+.addthis-animated {
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    animation-duration: .3s;
+}
+
+.at4-show {
+    display: block!important;
+    opacity: 1!important;
+}
+.addthis-smartlayers, div#at4-follow, div#at4-share, div#at4-thankyou, div#at4-whatsnext {
+    padding: 0;
+    margin: 0;
+}
+.addthis_inline_share_toolbox_fn12{
+   margin-left: 3px;
+    float: left;
+    padding-top: 0;
+}
+.publiction-div .Aicons{
+    width: 20%;
+   margin-top: 20px;
+  /* display: flex;
+   flex-direction: column;*/
+   
+}
+.publiction-div .Aicons a{
+    display: block;
+   
+}

@@ -1,0 +1,167 @@
+
+
+.program-id-div {
+    background: url(../imgs/blueBg2.png);
+    padding: 10px 16px 12px 16px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.program-id-section > a {
+    color: #333;
+}
+.activity-center {
+    background: rgba(0,164,158,0.8);
+    padding: 20px 10px;
+    margin: 14px auto;
+    border-radius: 10px;
+    width: 250px;
+}
+.activities_link {
+    background: url(../imgs/program_center_div.png);
+    background-size: 100% 100%;
+    margin-bottom: 6px;
+    padding: 9px 0px 10px 0px;
+    line-height: 1;
+}
+.activities_link a {
+    color: #000;
+}
+.activities_link a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.right-side {
+    float: right;
+}
+
+.program-id-section {
+    background: url(../imgs/program_div.png);
+    background-size: 100% 100%;
+    padding: 2px 30px 3px 0px;
+    margin-top: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+    height: 24px;
+}
+/*book summury style*/
+.publiction-div {
+   /* background-image: url(imgs/publications-div.png);
+    background-position:center;
+    background-size: 100% 100%;*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(180, 174, 174);
+    min-height: 387px;   
+   
+    
+}
+#contentTxt .textStyle{
+    overflow-y: scroll;
+    height: 895px;
+   
+    
+}
+#contentTxt .textStyle p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#decFont , #incFont {
+    padding: 2px;
+    font-size: 12px;
+    background-color: rgb(9, 207, 230);
+    float: left;
+    color: #fff;
+    margin: auto 2px;
+}
+#decFont:hover , #incFont:hover {
+    cursor: pointer; 
+}
+
+.at-share-tbx-element .at-share-btn:focus, .at-share-tbx-element .at-share-btn:hover {
+    transform: translateY(-4px);
+    outline-offset: -1px;
+    color: inherit;
+}
+.at-share-tbx-element, .at-share-tbx-element .at-share-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif,arial,sans-serif;
+    padding: 0;
+    line-height: 0;
+}
+.at-share-tbx-element .at-share-btn {
+    cursor: pointer;
+    margin: 0 5px 5px 0;
+    display: inline-block;
+    overflow: hidden;
+    border: 0;
+    text-decoration: none;
+    text-transform: none;
+    background-color: transparent;
+    color: inherit;
+    transition: all .2s ease-in-out;
+}
+#incFont:hover , #decFont:hover {
+    margin-top: -3px;
+}
+.addthis_inline_share_toolbox_fn12{
+    margin-left: 3px;
+     float: left;
+     padding-top: 0;
+ }
+ .at-share-tbx-element .at-icon-wrapper {
+    vertical-align: middle;
+}
+a .at-icon-wrapper {
+    cursor: pointer;
+}
+
+.at-icon-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 20px; 
+    height: 20px;
+     width: 20px;
+}
+.at-icon-wrapper svg{
+    fill: rgb(255, 255, 255);
+     width: 20px; 
+     height: 20px;
+}
+.at4-visually-hidden {
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+.publiction-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-align: right;
+    line-height: 2;
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    font-family: Cairo,sans-serif;
+}
+.fa-print {
+    padding: 6px;
+    font-size: 17px;
+    background-color: rgba(10,126,140,0.8);
+    float: left;
+    color: #fff;
+    margin: auto 2px;
+}
+.publiction-div .Aicons{
+    width: 20%;
+   margin-top: 20px;
+  /* display: flex;
+   flex-direction: column;*/
+   
+}
+.publiction-div .Aicons a{
+    display: block;
+   
+}

@@ -1,0 +1,50 @@
+
+* {
+    font-family: 'Hacen Liner Print-out';
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+.fLinks a:first-child{
+  
+}
+.fLinks{
+    padding: 20px 10px 0px 0px;
+
+ 
+}
+
+
+.publiction-div {
+   /* background: url(imgs/publications-div.png);
+    background-size: 100% 100%;
+    background-position:left left;*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(180, 174, 174);
+    min-height: 300px;
+    padding: 20px 60px 20px 30px;
+    text-align: center;
+}
+.boxM{
+    margin-bottom: 20px;
+}
+.pagination {
+    margin: 0px auto;
+}
+.pagination>li {
+    
+    cursor: pointer;
+    float: right;
+    margin-left: 5px;
+}
+.pagination:nth-child(10):hover{
+    cursor: none;
+
+}
+.publiction-name {
+    height: 65px;
+    overflow: hidden;
+}
+
+

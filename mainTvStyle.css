@@ -1,0 +1,340 @@
+/*general*/
+html {
+    direction: rtl;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.15s;
+    background-color: transparent;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3;
+    font-weight: 600;
+}
+div {
+    display: block;
+}
+
+
+
+/*the whole block*/
+.slider-area {
+    position: relative;
+    overflow: hidden;
+    width: fit-content;
+}
+.mag-box {
+    margin-bottom: 30px;
+    clear: both;
+}
+
+
+
+/*title of tv*/
+
+.playlist-title {
+    background-image: url(./imgs/gradientMenu.png);
+    color: #fff;
+    height: 70px;
+    width: 100%;
+    padding: 0 15px;
+    line-height: 17px;
+    z-index: 9;
+}
+
+
+.playlist-title-icon {
+    float: right;
+    margin-left: 5px;
+    font-size: 27px;
+    margin-right: 10px;
+    height: 100%;
+    line-height: 70px;
+    width: 40px;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+}
+.playlist-title h2 {
+    padding-top: 14px;
+   text-align: right;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*video box*/
+
+.video-playlist-wrapper {
+    background-color: #27292d;
+    position: relative;
+    width: 69%;
+    height: 434px;
+    float: left;
+}
+.video-player-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+/*nav wrapper*/
+
+.video-playlist-nav-wrapper {
+    width: 30%;
+    float: right;
+    height: 434px;
+    overflow: hidden;
+    background: #ffffff;
+    position: relative;
+    border-width: 0 1px 1px 0;
+}
+
+.video-playlist-nav-wrapper .mCustomScrollBox>.mCSB_scrollTools {
+    right: 0;
+    left: auto;
+}
+
+.video-playlist-nav:not(.playlist-has-title) {
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+.video-playlist-nav {
+    position: relative;
+    height: 434px;
+    clear: both;
+}
+
+.video-playlist-item h2 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 17px;
+}
+.video-playlist-item {
+    padding: 12px 15px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+
+.video-paused-icon, .video-play-icon, .video-number {
+    float: left;
+    width: 20px;
+    text-align: left;
+    line-height: 46px;
+    font-size: 11px;
+    color: #333;
+}
+.videos-number, .video-play-icon, .video-paused-icon, .video-number, .video-thumbnail {
+    float: right;
+    text-align: right;
+}
+.video-thumbnail {
+    width: 75px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /*float: left;*/
+}
+.videos-number {
+    font-size: 11px;
+     display: block; 
+    /* float: left; */
+}
+.video-play-icon {
+    display: none;
+    color: #08f;
+}
+.video-paused-icon {
+    display: none;
+    color: #08f;
+}
+.video-info {
+    padding-left: 0;
+    padding-right: 105px;
+}
+
+.video-info {
+    padding-left: 105px;
+}
+.video-duration {
+    float: left;
+    font-size: 11px;
+    color: #777;
+    margin-top: 3px;
+    line-height: 1;
+}
+
+.video-duration{
+    float: right;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+/*
+@media (max-width: 991px){
+    .mag-box {
+        margin-bottom: 15px;
+    }
+}
+
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+
+.logo-text, h1, h2, h3, h4, h5, h6 {
+    font-family: 'AlGhad';
+}
+h2 {
+    font-size: 27px;
+}
+
+
+
+
+.logo-text, h1, h2, h3, h4, h5, h6 {
+    font-family: 'AlGhad';
+}
+h2 {
+    font-size: 27px;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3;
+    font-weight: 600;
+}
+@media (max-width: 767px){
+    .video-playlist-nav-wrapper {
+        height: auto !important;
+        width: 100%;
+    }
+    .video-playlist-wrapper {
+        width: 100%;
+        height: auto;
+    }
+    .video-player-wrapper {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+    .video-playlist-nav {
+    height: 270px !important;
+}
+}
+
+
+
+
+
+
+
+.mCustomScrollbar {
+    -ms-touch-action: pinch-zoom;
+    touch-action: pinch-zoom;
+}
+
+.mCustomScrollBox {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: none;
+    direction: ltr;
+}
+.mCSB_container {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+.mCS-autoHide>.mCustomScrollBox>.mCSB_scrollTools, .mCS-autoHide>.mCustomScrollBox ~ .mCSB_scrollTools {
+    opacity: 0;
+    filter: "alpha(opacity=0)";
+    -ms-filter: "alpha(opacity=0)";
+    -webkit-filter: "alpha(opacity=0)";
+}
+.mCS-dir-rtl>.mCSB_inside>.mCSB_scrollTools, .mCS-dir-rtl>.mCSB_outside+.mCSB_scrollTools {
+    left: auto;
+    right: 0;
+}
+
+.mCSB_scrollTools {
+    opacity: 0.75;
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)";
+    -webkit-filter: "alpha(opacity=75)";
+}
+.mCSB_scrollTools, .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_buttonUp, .mCSB_scrollTools .mCSB_buttonDown, .mCSB_scrollTools .mCSB_buttonLeft, .mCSB_scrollTools .mCSB_buttonRight {
+    transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+}
+.mCSB_scrollTools {
+    position: absolute;
+    width: 16px;
+    height: auto;
+    right: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.mCSB_scrollTools .mCSB_draggerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: auto;
+}
+.mCSB_scrollTools .mCSB_dragger {
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #fff;
+    background: rgba(0,0,0,0.3);
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)";
+}
+
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    position: relative;
+    width: 4px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+*/
